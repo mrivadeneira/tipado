@@ -8,7 +8,7 @@ class A:
         self.c = c
 
 
-ia = A(a=1, b=1, c="asdad")
+ia = A(a=1, b="1", c=1.0)
 
 
 @dataclass
@@ -18,7 +18,7 @@ class B:
     c: float
 
 
-ib = B(a=1, b=1, c="asdwqe")
+ib = B(a=1, b="1", c=1.2)
 
 print(f"ia: {ia}")
 print(f"ib: {ib}")
